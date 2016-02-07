@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#coding: utf-8
 
 from server import app
 print("Running server on http://localhost:5000")

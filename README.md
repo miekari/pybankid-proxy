@@ -5,6 +5,8 @@ PyBankID-Proxy is a proxy to perform BankID auth requests.
 
 For more details about BankID implementation, see the [official documentation](https://www.bankid.com/bankid-i-dina-tjanster/rp-info).
 
+This proxy uses [Flask](http://flask.pocoo.org/) engine and relies on [pybankid](https://github.com/hbldh/pybankid) wrapper made by Henrik Blidh ([hbldh](https://github.com/hbldh))
+
 Installation
 ------------
 PyBankId-Proxy can be installed the following way:
@@ -29,7 +31,7 @@ heroku create
 
 heroku apps:rename myproxy
 
-git push heroku master   
+git push heroku master
 ```
 
 And test it in the browser https://myproxy.herokuapp.com
