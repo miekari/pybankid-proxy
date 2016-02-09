@@ -31,11 +31,11 @@ export USR="myuser"
 #Run locally
 python run.py
 ```
-Service accessible in localhost:  https://localhost:5000/authenticate/PERSONNUMMER
+The service is accessible from localhost:  https://localhost:5000/authenticate/PERSONNUMMER
 
 Where ```PERSONNUMMER``` can be generated randomly using [fejk.se](https://fejk.se/)
 
-This proxy is built to be run in Heroku. Given the [Heroku Toolbelt](https://toolbelt.heroku.com/) is already installed the deployment of this app to Heroku can be done the following way:
+This proxy is built to be run in Heroku. Given the [Heroku Toolbelt](https://toolbelt.heroku.com/) is already installed, the deployment can be done the following way:
 
 ```bash
 heroku apps:create myproxy
@@ -46,14 +46,14 @@ heroku config:set USR="myuser"
 
 git push heroku master
 
-#To see Heroku logs
+#Heroku logs
 heroku logs -t
 
-#You can also run locally Heroku and see results in localhost
+#Run Heroku locally (results in localhost)
 heroku local
 ```
 
-Service accessible as Heroku app:  https://myproxy.herokuapp.com/authenticate/PERSONNUMMER
+The service is accessible as a Heroku app:  https://myproxy.herokuapp.com/authenticate/PERSONNUMMER
 
 Recommendations
 ------------
