@@ -1,6 +1,7 @@
 Flask==0.10.1
 Flask-BasicAuth==0.2.0
-Flask-PyBankID==0.1.0
+#Flask-PyBankID==0.1.0
+-e git://github.com/magandrez/flask-pybankid@cert_handling#egg=flask-pybankid
 pybankid==0.3.1
 Jinja2==2.8
 MarkupSafe==0.23
